@@ -1,0 +1,45 @@
+body {
+    font-family: 'YourCustomFont', sans-serif; /* Replace 'YourCustomFont' with the actual font you want to use */
+    margin: 0;
+}
+
+.section {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.fixed-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+    z-index: -1;
+}
+
+.room-showcase {
+    padding: 100px 0;
+}
+
+.room-showcase h1 {
+    font-size: 4em; /* Adjust the font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adjust the text shadow as needed */
+}
+
+.room-showcase p,
+.room-showcase h2,
+.room-showcase ul {
+    font-size: 1.5em; /* Adjust the font size as needed for other elements in the room-showcase section */
+}
